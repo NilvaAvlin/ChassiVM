@@ -22,4 +22,27 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+  <sourceDirectory>
+  ${project.basedir}/src/main/java
+  </sourceDirectory>
+  <testSourceDirectory>
+  ${project.basedir}/src/test/java
+  </testSourceDirectory>
+  <resources>
+  <resource>
+  <directory>
+  ${project.basedir}/src/main/java
+  </directory>
+  </resource>
+  </resources>
+  <testResources>
+  <testResource>
+  <directory>
+  ${project.basedir}/src/test/java
+  </directory>
+  </testResource>
+  </testResources>
+  </build>
 </project>
