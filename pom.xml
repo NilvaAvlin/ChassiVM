@@ -18,31 +18,31 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   
   <build>
-  <sourceDirectory>
-  ${project.basedir}/src/main/java
-  </sourceDirectory>
-  <testSourceDirectory>
-  ${project.basedir}/src/test/java
-  </testSourceDirectory>
-  <resources>
-  <resource>
-  <directory>
-  ${project.basedir}/src/main/java
-  </directory>
-  </resource>
+ 	 <sourceDirectory>
+ 		 ${project.basedir}/src/main/java
+  	</sourceDirectory>
+	  <testSourceDirectory>
+	 	 ${project.basedir}/src/test/java
+	  </testSourceDirectory>
+	<resources>
+ 	 <resource>
+		  <directory>
+		  	${project.basedir}/src/main/java
+		  </directory>
+	  </resource>
   </resources>
-  <testResources>
-  <testResource>
-  <directory>
-  ${project.basedir}/src/test/java
-  </directory>
-  </testResource>
-  </testResources>
+  	<testResources>
+	  <testResource>
+		  <directory>
+		  	${project.basedir}/src/test/java
+		  </directory>
+	  </testResource>
+ 	 </testResources>
   </build>
 </project>
