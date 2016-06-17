@@ -32,6 +32,11 @@ public class TesteChassiUtil {
 	}
 	
 	@Test
+	public void testarAnoDChassi() {
+		assertEquals(util.obterAno("9BP17164GD0000001", 10), 2012);
+	}
+	
+	@Test
 	public void testarAnoMinusculoChassi() {
 		assertEquals(util.obterAno("9bp17164ga0000001", 10), 2010);
 	}
