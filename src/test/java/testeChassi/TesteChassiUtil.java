@@ -33,7 +33,7 @@ public class TesteChassiUtil {
 	
 	@Test
 	public void testarAnoDChassi() {
-		assertEquals(util.obterAno("9BP17164GD0000001", 10), 2012);
+		assertEquals(util.obterAno("9BP17164GD0000001", 10), 2013);
 	}
 	
 	@Test
